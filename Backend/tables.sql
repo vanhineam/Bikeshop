@@ -38,8 +38,8 @@ CREATE TABLE BUYS(
 	sale_num			varchar(255) NOT NULL,
 	client_num	  varchar(9) NOT NULL,
 	bike_serial_num varchar(12) NOT NULL,
-	sale_date			date NOT NULL,
-	price   			DECIMAL(65,30)) NOT NULL,
+	sale_date			DATE,
+	price   			DECIMAL(65,30) NOT NULL,
 	sales_ssn     varchar(9) NOT NULL
 );
 
